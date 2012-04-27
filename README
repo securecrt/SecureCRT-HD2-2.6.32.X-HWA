@@ -1,3 +1,12 @@
 This is the HWA kernel for HD2 
 The kernel is based on dorimanx 6.6C
 
+
+Notes:
+
+make htcleohwa_defconfig
+use this config to enable the HWA , this build can't be used in CM7 rom it is CM9 ICS only!!!
+
+make htcleo_defconfig  
+
+this the default without HWA build which can use in CM7  
